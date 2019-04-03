@@ -1,11 +1,11 @@
 [requires]
-includeos/[>=0.14.0,include_prerelease=True]@includeos/test
+includeos/[>=0.14.0,include_prerelease=True]@includeos/latest
 
 [build_requires]
-vmrunner/[>=0.14.0,include_prerelease=True]@includeos/test
-vmbuild/[>=0.14.0,include_prerelease=True]@includeos/test
-chainloader/[>=0.14.0,include_prerelease=True]@includeos/test
-diskbuilder/[>=0.14.0,include_prerelease=True]@includeos/test
+chainloader/[>=0.14.0,include_prerelease=True]@includeos/latest
+vmrunner/[>=0.15.0]@includeos/stable
+vmbuild/[>=0.15.0]@includeos/stable
+diskbuilder/[>=0.15.0]@includeos/stable
 
 [generators]
 virtualenv
