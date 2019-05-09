@@ -15,7 +15,7 @@ $ cmake --build .
 $ boot hello
 ```
 
-Checkout out prepared conan profiles in the (conan config repository)[https://github.com/includeos/conan_config]. The (README)https://github.com/includeos/conan_config/blob/master/README.md] has information on which profile is suited for your environment.
+Checkout out prepared conan profiles in the [conan config repository](https://github.com/includeos/conan_config). The [README](https://github.com/includeos/conan_config/blob/master/README.md) has information on which profile is suited for your environment.
 
 For more advanced examples see the [examples repo](https://github.com/includeos/demo-examples) or the integration tests (under ./IncludeOS/test/\*/integration).
 
