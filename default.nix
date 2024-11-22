@@ -4,7 +4,7 @@
 
   includeos ? import (builtins.fetchGit {
         url = "https://github.com/includeos/IncludeOS.git";
-        ref = "main"; # Currently using v0.16 pre-release branch
+        ref = "main";
       }) { inherit smp; inherit withCcache; },
 }:
 let
